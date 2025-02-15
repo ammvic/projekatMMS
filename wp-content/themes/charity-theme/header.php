@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+    <meta charset="<?php bloginfo('charset'); ?>">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
+
+<!-- Gornja traka (top-bar) -->
+<div class="top-bar">
+    <div class="container">
+        <div class="top-bar-content">
+            <div class="contact-info">
+                <span class="phone"><i class="fas fa-phone"></i> 233-455-7995</span>
+                <span class="address"><i class="fas fa-map-marker-alt"></i> Ulica 233.52, Privremena adresa, Donec ultricies mattis nulla</span>
+            </div>
+            <div class="top-bar-buttons">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-heart.png" alt="Pomozite">
+                <a href="#" class="top-donate">Donirajte</a>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-user.png" alt="Postanite volonter">
+                <a href="#" class="top-volunteer">Postanite volonter</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Glavni header (logo, meni) -->
+<header class="main-header">
+    <div class="container">
+        <div class="header-wrapper">
+            <div class="logo">
+                <!-- Može biti i slika, npr. <img src="..." alt="Logo Humanitarne Organizacije" /> -->
+                <a href="<?php echo home_url(); ?>">Hand of hope</a>
+            </div>
+            <nav class="main-nav">
+                <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'main-menu',
+                        'container'      => false,
+                        'menu_class'     => 'nav-list'
+                    ));
+                ?>
+            </nav>
+        </div>
+    </div>
+</header>
