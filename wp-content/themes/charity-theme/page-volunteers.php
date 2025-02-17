@@ -39,6 +39,7 @@ img {
 /* HERO: "Meet Our Awesome Volunteers" */
 /* -------------------------------------------------- */
 .hero-volunteers {
+  margin-top: 80px;
   text-align: center;
   padding: 40px 0 60px 0;
   background-color: #fff; /* bijela pozadina, prilagodi po želji */
@@ -64,7 +65,7 @@ img {
   gap: 30px;
 }
 .volunteer-card {
-  background: #ffffff;
+  background:rgb(202, 194, 194);
   width: 220px;
   padding: 20px;
   text-align: center;
@@ -85,6 +86,12 @@ img {
   color: #777;
   font-size: 0.95rem;
 }
+.volunteer-card img {
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;     /* čini sliku blok elementom */
+  margin: 0 auto;     /* centrira sliku unutar roditelja */
+}
 
 /* -------------------------------------------------- */
 /* WHY CHOOSE US */
@@ -98,7 +105,8 @@ img {
 }
 .why-image {
   flex: 1;
-  /* prilagodi dimenzije / omjere slike po želji */
+  max-width: 100%; /* Povećaj ovu vrijednost po potrebi */
+ 
 }
 .why-content {
   flex: 1;
@@ -158,6 +166,12 @@ img {
   color: #777;
   font-size: 0.95rem;
 }
+.why-image img {
+  width: 100%;    /* Slika će se protegnuti na 100% širine kontejnera */
+  height: auto;   /* Očuvanje proporcija */
+  max-width: none; /* Uklanja eventualno ograničenje */
+}
+
 
 /* -------------------------------------------------- */
 /* STATISTIKA (crna pozadina, 4 "kolone") */
@@ -166,17 +180,18 @@ img {
   background-color: #000;
   padding: 60px 20px;
   border-radius: 8px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  /* Umjesto flex: */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 20px;
 }
+
 .stat-box {
-  flex: 1 1 calc(25% - 20px);
   text-align: center;
   color: #fff;
-  margin: 0 10px;
+  /* Ne treba ti flex-basis ni margin, grid sve rješava */
 }
+
 .stat-icon {
   width: 60px;
   height: 60px;
@@ -189,6 +204,7 @@ img {
   margin: 0 auto 15px auto;
   font-size: 1.5rem;
 }
+
 .stat-box h3 {
   font-size: 2rem;
   margin-bottom: 10px;
@@ -230,108 +246,110 @@ img {
   
   <!-- HERO: Volunteers -->
   <section class="hero-volunteers">
-    <span class="volunteers-subtitle">Volunteers</span>
-    <h2>Meet Our Awesome Volunteers</h2>
+    <span class="volunteers-subtitle">Volonteri</span>
+    <h2>Upoznajte naše sjajne volontere</h2>
     <div class="volunteers-cards">
       <!-- 1. volonter -->
       <div class="volunteer-card">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/susan.jpg" alt="Susan Hardson">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Volonter 1">
         <h3>Susan Hardson</h3>
-        <p>Volunteer</p>
+        <p>Volonter</p>
       </div>
       <!-- 2. volonter -->
       <div class="volunteer-card">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/lauren.jpg" alt="Lauren Davis">
+        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Volonter 2">
         <h3>Lauren Davis</h3>
-        <p>Volunteer</p>
+        <p>Volonter</p>
       </div>
       <!-- 3. volonter -->
       <div class="volunteer-card">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/catherine.jpg" alt="Catherine Jones">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Volonter 3">
         <h3>Catherine Jones</h3>
-        <p>Volunteer</p>
+        <p>Volonter</p>
       </div>
       <!-- 4. volonter -->
       <div class="volunteer-card">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/david.jpg" alt="David Stage">
+        <img src="https://randomuser.me/api/portraits/men/78.jpg" alt="Volonter 4">
         <h3>David Stage</h3>
-        <p>Volunteer</p>
+        <p>Volonter</p>
       </div>
     </div>
   </section>
 
-  <!-- WHY CHOOSE US -->
+  <!-- ZAŠTO ODABRATI NAS -->
   <section class="why-choose-section">
-    <!-- Lijeva kolona: slika -->
+    <!-- Leva kolona: slika -->
     <div class="why-image">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/why-choose-us.jpg" alt="Why Choose Us">
+      <img src="<?php echo get_template_directory_uri(); ?>/assets/img/p.png" alt="Zašto nas odabrati">
     </div>
     <!-- Desna kolona: tekst + bullet items -->
     <div class="why-content">
-      <h3>Why Choose Us</h3>
-      <h2>Why Choose Our Charity Platform</h2>
+      <h3>Zašto nas odabrati</h3>
+      <h2>Zašto izabrati našu humanitarnu platformu</h2>
       <p>
         Fusce ac cursus nunc. Etiam semper tempor tempor.  
-        Suspendisse suscipit volutpat purus. Integer luctus quam sed nunc venenatis, vitae luctus nisl pellentesque.
+        Suspendisse suscipit volutpat purus. Integer luctus quam sed nunc venenatis, 
+        vitae luctus nisl pellentesque.
       </p>
       <div class="why-items">
-        <!-- 1. kartica: Highest Success Rate -->
+        <!-- 1. kartica: Najveća stopa uspeha -->
         <div class="why-item">
           <div class="why-item-icon">
             <i class="fas fa-trophy"></i>
           </div>
-          <h4>Highest Success Rate</h4>
+          <h4>Najveća stopa uspeha</h4>
           <p>Donec sollicitudin metus sed nunc finibus, vel auctor lorem feugiat.</p>
         </div>
-        <!-- 2. kartica: Millions in Funding -->
+        <!-- 2. kartica: Milioni u prikupljenim sredstvima -->
         <div class="why-item">
           <div class="why-item-icon">
             <i class="fas fa-hand-holding-usd"></i>
           </div>
-          <h4>Millions in Funding</h4>
+          <h4>Milioni u prikupljenim sredstvima</h4>
           <p>Proin laoreet lorem a nunc varius, vel cursus leo porttitor.</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- STATISTIKA (Projects, Funds, Partner Pledges, Volunteers) -->
+  <!-- STATISTIKA (Završeni projekti, Prikupljena sredstva, Partneri, Volonteri) -->
   <section class="stats-section">
-    <!-- 1. Projects Completed -->
+    <!-- 1. Završenih projekata -->
     <div class="stat-box">
       <div class="stat-icon">
         <i class="fas fa-briefcase"></i>
       </div>
       <h3>790</h3>
-      <p>Projects Completed</p>
+      <p>Završenih projekata</p>
     </div>
-    <!-- 2. Funds Raised to Date -->
+    <!-- 2. Prikupljena sredstva -->
     <div class="stat-box">
       <div class="stat-icon">
         <i class="fas fa-dollar-sign"></i>
       </div>
       <h3>766K</h3>
-      <p>Funds Raised to Date</p>
+      <p>Prikupljena sredstva</p>
     </div>
-    <!-- 3. Partner Pledges -->
+    <!-- 3. Partneri -->
     <div class="stat-box">
       <div class="stat-icon">
         <i class="fas fa-handshake"></i>
       </div>
       <h3>850</h3>
-      <p>Partner Pledges</p>
+      <p>Partneri</p>
     </div>
-    <!-- 4. Volunteers -->
+    <!-- 4. Volonteri -->
     <div class="stat-box">
       <div class="stat-icon">
         <i class="fas fa-users"></i>
       </div>
       <h3>200</h3>
-      <p>Volunteers</p>
+      <p>Volonteri</p>
     </div>
   </section>
 
 </div>
+
 
 <?php
 get_footer();
