@@ -192,6 +192,12 @@ a {
     padding: 60px 0;
 }
 
+.footer-map {
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
 
 
 .hero-boxes {
@@ -257,126 +263,188 @@ a {
     text-align: center;
 }
 
-/***** HERO sekcija *****/
-.support-hero {
-    padding: 60px 0;
-}
-.hero-container {
+/***** Globalne varijable *****/
+:root {
+    --primary-color: #e74c3c;
+    --secondary-color: #c0392b;
+    --light-bg: #f9f9f9;
+    --text-color: #333;
+    --muted-text: #777;
+    --white: #fff;
+    --transition-speed: 0.3s;
+    --box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /***** HERO sekcija *****/
+  .support-hero {
+    padding: 80px 20px;
+    /* Lagani gradient za dinamičniji izgled */
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+  
+  .hero-container {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    gap: 30px; /* Razmak između slika i teksta */
-    
-}
-
-.hero-images {
+    gap: 30px;
+  }
+  
+  .hero-images {
     position: relative;
-    width: 400px;   /* Možeš menjati po želji */
-    height: 300px;  /* Ili auto, ali onda pazi da se vidi cela druga slika */
-}
-
-.hero-images img:first-child {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+  }
+  
+  .hero-images img {
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform var(--transition-speed);
+  }
+  
+  .hero-images img:hover {
+    transform: scale(1.05);
+  }
+  
+  .hero-images img:first-child {
     position: absolute;
     top: 0;
     left: 0;
-    width: 600px;   /* prilagodi veličinu po želji */
-    border-radius: 6px;
-    object-fit: cover; /* ako je potrebno da slika ne izlazi iz okvira */
-}
-.hero-images img:last-child {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-images img:last-child {
     position: absolute;
-    top: 180px;   /* pomeraj po želji za vertikalni overlap */
-    left: 220px; /* pomeraj po želji za horizontalni overlap */
-    width: 420px;
-    border-radius: 6px;
-    object-fit: cover;
-}
-
-.hero-content {
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-content {
     flex: 1;
-    max-width: 500px;
-}
-.hero-content h2 {
-    font-size: 2rem;
-    margin-bottom: 10px;
+    max-width: 600px;
+    color: var(--white);
+  }
+  
+  .hero-content h2 {
+    font-size: 2.5rem;
     margin-top: 15px;
-}
-.hero-content p {
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
     margin-bottom: 20px;
     line-height: 1.6;
-}
-.donate-btn {
+    font-size: 1.1rem;
+  }
+  
+  .donate-btn {
     display: inline-block;
-    background: #e74c3c;
-    color: #fff;
-    padding: 12px 25px;
+    background: var(--primary-color);
+    color: var(--white);
+    padding: 14px 30px;
     border-radius: 4px;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 20px;
     text-decoration: none;
-    transition: background 0.3s ease;
-}
-.donate-btn:hover {
-    background: #c0392b;
-}
-
-/***** Ikonice (Donations, Fund Raised, Volunteers) *****/
-.hero-stats {
+    transition: background var(--transition-speed), transform var(--transition-speed);
+  }
+  
+  .donate-btn:hover {
+    background: var(--secondary-color);
+    transform: translateY(-3px);
+  }
+  
+  /***** Ikonice (Donations, Fund Raised, Volunteers) *****/
+  .hero-stats {
     display: flex;
     gap: 50px;
     margin-top: 20px;
     justify-content: center;
-}
-.stat-box {
+  }
+  
+  .stat-box {
     text-align: center;
-}
-.stat-box i {
-    font-size: 24px;
-    color: #f5f3f3;
+  }
+  
+  .stat-box i {
+    font-size: 28px;
+    color: var(--primary-color);
     margin-bottom: 8px;
-}
-.stat-box h3 {
-    font-size: 1rem;
+  }
+  
+  .stat-box h3 {
+    font-size: 1.2rem;
     font-weight: normal;
-    color: #333;
-}
-
-/***** LATEST CAUSES sekcija *****/
-.latest-causes {
-    padding: 60px 0;
-    background: #f9f9f9;
+    color: var(--text-color);
+  }
+  
+  /***** LATEST CAUSES sekcija *****/
+  .latest-causes {
+    padding: 80px 20px;
+    background: var(--light-bg);
     text-align: center;
-}
-.section-title h3 {
-    font-size: 1.8rem;
+  }
+  
+  .section-title h3 {
+    font-size: 2rem;
     margin-bottom: 10px;
-}
-.section-title p {
-    color: #777;
+    color: var(--text-color);
+  }
+  
+  .section-title p {
+    color: var(--muted-text);
     margin-bottom: 40px;
-}
-.causes-wrapper {
+    font-size: 1rem;
+  }
+  
+  .causes-wrapper {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-}
-.cause-card {
-    background: #fff;
-    width: 300px;
-    border-radius: 6px;
+  }
+  
+  .cause-card {
+    background: var(--white);
+    width: 320px;
+    border-radius: 8px;
     overflow: hidden;
     text-align: left;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: box-shadow 0.3s ease;
+    box-shadow: var(--box-shadow);
+    transition: box-shadow var(--transition-speed), transform var(--transition-speed);
   }
+  
   .cause-card:hover {
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
   }
-
+  
+  .cause-card img {
+    width: 100%;
+    display: block;
+    height: auto;
+  }
+  
+  .cause-card h4 {
+    font-size: 1.3rem;
+    margin: 15px;
+    color: var(--text-color);
+  }
+  
+  .cause-card p {
+    margin: 0 15px 15px;
+    color: var(--muted-text);
+    font-size: 0.95rem;
+  }
+  
   .cause-funding {
     display: flex;
     justify-content: space-between;
@@ -386,83 +454,46 @@ a {
     font-weight: bold;
     font-size: 0.9rem;
   }
-  .progress {
-    background: #e74c3c;
-    height: 100%;
-    position: relative; /* da .progress-label može biti apsolutno pozicioniran unutar */
-    transition: width 0.4s ease;
-  }
+  
+  /* Progress Bar */
   .progress-bar {
     position: relative;
     background: #eee;
-    height: 10px;
-    border-radius: 5px;
+    height: 12px;
+    border-radius: 6px;
     margin: 10px 15px;
-    overflow: visible; /* dozvoljava balončiću da se prikaže iznad */
-}
-
-.progress-label {
-    position: absolute;
-    bottom: 100%;       /* da bude iznad trake */
-    left: 100%;         /* smeštamo ga na desnu ivicu .progress */
-    transform: translateX(-100%) translateY(-5px);
-    /* Pomeri ga nazad za 100% sopstvene širine 
-       i malo naviše (-5px) iznad gornje ivice */
+    overflow: hidden;
+  }
   
-    background: #e74c3c;
-    color: #fff;
+  .progress {
+    background: var(--primary-color);
+    height: 100%;
+    width: 0%;
+    transition: width 0.4s ease;
+    position: relative;
+  }
+  
+  .progress-label {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    background: var(--primary-color);
+    color: var(--white);
     padding: 5px 8px;
     border-radius: 3px;
     font-size: 0.8rem;
-    white-space: nowrap; 
+    white-space: nowrap;
   }
   
-  /* Strelica ispod balončića */
   .progress-label::after {
     content: "";
     position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+    bottom: -5px;
+    right: 5px;
     border: 5px solid transparent;
-    border-top-color: #e74c3c;
+    border-top-color: var(--primary-color);
   }
   
-  
-  .progress-bar .progress {
-    background: #e74c3c;
-    height: 100%;
-    color: #fff;
-    text-align: center;
-    font-size: 0.8rem;
-    line-height: 10px; /* poravnanje teksta unutar trake */
-    border-radius: 5px;
-    transition: width 0.4s ease;
-  }
-.cause-card img {
-    width: 100%;
-    display: block;
-    height: auto;
-}
-.cause-card h4 {
-    font-size: 1.1rem;
-    margin: 15px;
-    color: #333;
-}
-.cause-card p {
-    margin: 0 15px 15px;
-    color: #555;
-    font-size: 0.95rem;
-}
-.cause-funding {
-    display: flex;
-    justify-content: space-between;
-    background: #fafafa;
-    padding: 10px 15px;
-    border-top: 1px solid #eee;
-    font-weight: bold;
-    font-size: 0.9rem;
-}
 
 .error-404 {
     width: 100px;

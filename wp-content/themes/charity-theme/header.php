@@ -17,9 +17,7 @@
             </div>
             <div class="top-bar-buttons">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-heart.png" alt="Pomozite">
-                <a href="#" class="top-donate">Donirajte</a>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-user.png" alt="Postanite volonter">
-                <a href="#" class="top-volunteer">Postanite volonter</a>
+                <a href="<?php echo site_url('/index.php/donacije/'); ?>" class="top-donate">Donirajte</a>
             </div>
         </div>
     </div>

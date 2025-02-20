@@ -13,6 +13,58 @@ function charity_theme_setup() {
 }
 add_action('after_setup_theme', 'charity_theme_setup');
 
+function charity_customize_register($wp_customize) {
+    // Sekcija za prilagođavanje boja
+    $wp_customize->add_section('charity_colors', array(
+        'title'    => __('Boje teme', 'charity-theme'),
+        'priority' => 30,
+    ));
+
+    // Opcija za boju headera
+    $wp_customize->add_setting('header_color', array(
+        'default'   => '#ffffff',
+        'transport' => 'refresh',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Color_Control(
+        $wp_customize,
+        'header_color',
+        array(
+            'label'    => __('Boja Headera', 'charity-theme'),
+            'section'  => 'charity_colors',
+            'settings' => 'header_color',
+        )
+    ));
+
+    // Opcija za boju footera
+    $wp_customize->add_setting('footer_color', array(
+        'default'   => '#333333',
+        'transport' => 'refresh',
+    ));
+
+    $wp_customize->add_control(new WP_Customize_Color_Control(
+        $wp_customize,
+        'footer_color',
+        array(
+            'label'    => __('Boja Footera', 'charity-theme'),
+            'section'  => 'charity_colors',
+            'settings' => 'footer_color',
+        )
+    ));
+}
+add_action('customize_register', 'charity_customize_register');
+
+function charity_custom_colors() {
+    ?>
+    <style type="text/css">
+        header { background-color: <?php echo get_theme_mod('header_color', '#ffffff'); ?>; }
+        footer { background-color: <?php echo get_theme_mod('footer_color', '#333333'); ?>; }
+    </style>
+    <?php
+}
+add_action('wp_head', 'charity_custom_colors');
+
+
 function charity_theme_assets() {
     // Učitaj Font Awesome preko CDN-a
     wp_enqueue_style(
@@ -33,4 +85,25 @@ function charity_theme_assets() {
     );
 }
 add_action('wp_enqueue_scripts', 'charity_theme_assets');
+
+function charity_widgets_init() {
+    register_sidebar(array(
+        'name'          => __('Glavna Sidebar Zona', 'charity-theme'),
+        'id'            => 'main-sidebar',
+        'before_widget' => '<div class="widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    register_sidebar(array(
+        'name'          => __('Footer Widget Zona', 'charity-theme'),
+        'id'            => 'footer-sidebar',
+        'before_widget' => '<div class="footer-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="footer-widget-title">',
+        'after_title'   => '</h3>',
+    ));
+}
+add_action('widgets_init', 'charity_widgets_init');
 
