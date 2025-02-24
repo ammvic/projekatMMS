@@ -72,23 +72,17 @@ a {
 
 /* Glavni header - transparentno siva pozadina */
 .main-header {
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 100%;
-    z-index: 100;
-    padding: 15px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    /* Poluprovidna boja da izgleda kao staklo */
-    background: rgba(51, 51, 51, 0.4);
-
-    /* Ako slučajno imaš neku sliku ispod, 
-       zadrži i backdrop-filter: */
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-
-    /* Da pseudo-element ne "beži" izvan okvira */
-    overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 5px 0; /* Smanjen padding */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(51, 51, 51, 0.4);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  overflow: hidden;
 }
 
 .main-header::before {
@@ -117,11 +111,20 @@ a {
     justify-content: space-between;
 }
 
-.logo a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fff;
+.logo {
+  height: 30px !important;  /* Možeš dodatno smanjiti na npr. 25px ili 20px */
+  overflow: hidden;
 }
+
+/* Podesi sliku unutar logo kontejnera */
+.logo img {
+  max-height: 100% !important; /* Slika će se prilagoditi visini roditelja */
+  width: auto !important;       /* Zadržava proporcije */
+  display: block;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 
 .main-nav .nav-list {
     list-style: none;

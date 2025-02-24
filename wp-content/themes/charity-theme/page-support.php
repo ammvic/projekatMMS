@@ -58,8 +58,8 @@ get_header();
 }
 .hero-images img:last-child {
     position: absolute;
-    top: 180px;
-    left: 220px;
+    top: 270px;
+    left: 450px;
     width: 420px;
 }
 
@@ -280,7 +280,7 @@ get_header();
             <h2>Potrebna nam je vaša podrška za pomoć ugroženima</h2>
             <p>Ovim projektom želimo da obezbedimo hranu, smeštaj i obrazovanje onima kojima je to najpotrebnije. 
                Uz vašu pomoć možemo promeniti mnoge živote i stvoriti bolju budućnost za sve.</p>
-            <a href="#" class="donate-btn">Donirajte odmah</a>
+            <a href="<?php echo site_url('/index.php/donacije/'); ?>" class="donate-btn">Donirajte odmah</a>
             
             <div class="hero-stats">
                 <div class="stat-box">

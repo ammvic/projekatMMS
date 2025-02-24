@@ -27,10 +27,13 @@
 <header class="main-header">
     <div class="container">
         <div class="header-wrapper">
-            <div class="logo">
-                <!-- Može biti i slika, npr. <img src="..." alt="Logo Humanitarne Organizacije" /> -->
-                <a href="<?php echo home_url(); ?>">Hand of hope</a>
-            </div>
+        <div class="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/l1.png" 
+                alt="Logo Humanitarne Organizacije" 
+                style="max-height: 60px; width: 70px; display: block; margin: 0;">
+        </div>
+
+
             <nav class="main-nav">
                 <?php
                     wp_nav_menu(array(
