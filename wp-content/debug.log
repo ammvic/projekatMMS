@@ -1,0 +1,407 @@
+[24-Feb-2025 13:43:06 UTC] ❌ Greška prilikom slanja emaila: Array
+(
+    [type] => 2
+    [message] => Constant WP_DEBUG already defined
+    [file] => C:\xampp\htdocs\projekatMMS\wp-config.php
+    [line] => 94
+)
+
+[24-Feb-2025 13:44:40 UTC] ❌ Greška prilikom slanja emaila: 
+[24-Feb-2025 13:46:28 UTC] ❌ Testni email NIJE poslat!
+[24-Feb-2025 13:55:50 UTC] Cron reschedule event error for hook: action_scheduler_run_queue, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"every_minute","args":["WP Cron"],"interval":60}
+[24-Feb-2025 13:56:42 UTC] ❌ Greška prilikom slanja emaila.
+[24-Feb-2025 13:57:25 UTC] ❌ Greška prilikom slanja emaila.
+[24-Feb-2025 14:06:38 UTC] Greška pri slanju emaila: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Invalid address:  (From): wordpress@localhost
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => a.mmvic02@gmail.com
+                        )
+
+                    [subject] => Testni email iz mog SMTP plugina
+                    [message] => <h1>Ovo je test</h1><p>Mejl radi!</p>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[24-Feb-2025 14:07:21 UTC] Greška pri slanju emaila: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Invalid address:  (From): wordpress@localhost
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => a.mmvic02@gmail.com
+                        )
+
+                    [subject] => Testni email iz mog SMTP plugina
+                    [message] => <h1>Ovo je test</h1><p>Mejl radi!</p>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[24-Feb-2025 14:08:35 UTC] Greška pri slanju emaila: WP_Error Object
+(
+    [errors] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [0] => Invalid address:  (From): wordpress@localhost
+                )
+
+        )
+
+    [error_data] => Array
+        (
+            [wp_mail_failed] => Array
+                (
+                    [to] => Array
+                        (
+                            [0] => a.mmvic02@gmail.com
+                        )
+
+                    [subject] => Testni email iz mog SMTP plugina
+                    [message] => <h1>Ovo je test</h1><p>Mejl radi!</p>
+                    [headers] => Array
+                        (
+                        )
+
+                    [attachments] => Array
+                        (
+                        )
+
+                    [phpmailer_exception_code] => 0
+                )
+
+        )
+
+    [additional_data:protected] => Array
+        (
+        )
+
+)
+
+[24-Feb-2025 14:11:49 UTC] ✅ Email uspešno poslat na: a.mmvic02@gmail.com
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-5e07f390626sm10283220a12.30 - gsmtp
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.23.105]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-5e07f390626sm10283220a12.30 - gsmtp
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:14:47 UTC] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-5e07f390626sm10283220a12.30 - gsmtp
+
+[24-Feb-2025 14:14:47 UTC] CLIENT -> SERVER: DATA
+
+[24-Feb-2025 14:14:48 UTC] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-5e07f390626sm10283220a12.30 - gsmtp
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: Date: Mon, 24 Feb 2025 14:14:46 +0000
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: Subject: =?UTF-8?Q?Dobrodo=C5=A1li_u_na=C5=A1_newsletter!?=
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: Message-ID: <1TjJzrEvqvpbz1M8XDnTXmn7PjAUVrPz2HhUdskaGk@localhost>
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: <h1>Hvala što ste se prijavili!</h1><p>Drago nam je što ste se priključili!</p>
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:14:48 UTC] CLIENT -> SERVER: .
+
+[24-Feb-2025 14:14:49 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1740406489 4fb4d7f45d1cf-5e07f390626sm10283220a12.30 - gsmtp
+
+[24-Feb-2025 14:14:49 UTC] CLIENT -> SERVER: QUIT
+
+[24-Feb-2025 14:14:49 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-5e07f390626sm10283220a12.30 - gsmtp
+
+[24-Feb-2025 14:14:49 UTC] ✅ Email uspešno poslat na: a.mmvic02@gmail.com
+[24-Feb-2025 14:23:40 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-abb1e1bef3esm1948616866b.146 - gsmtp
+
+[24-Feb-2025 14:23:40 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Feb-2025 14:23:40 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.23.105]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Feb-2025 14:23:40 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Feb-2025 14:23:40 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Feb-2025 14:23:40 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:23:40 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Feb-2025 14:23:40 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:23:41 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:23:41 UTC] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-abb1e1bef3esm1948616866b.146 - gsmtp
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:23:41 UTC] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-abb1e1bef3esm1948616866b.146 - gsmtp
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: DATA
+
+[24-Feb-2025 14:23:41 UTC] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-abb1e1bef3esm1948616866b.146 - gsmtp
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: Date: Mon, 24 Feb 2025 14:23:39 +0000
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: Subject: =?UTF-8?Q?Dobrodo=C5=A1li_u_na=C5=A1_newsletter!?=
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: Message-ID: <pur5JQKCDT1KHe7Wgr9ueksdSLkd1tvH8NUNO6J2c@localhost>
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: <h1>Hvala što ste se prijavili!</h1><p>Drago nam je što ste se priključili!</p>
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:23:41 UTC] CLIENT -> SERVER: .
+
+[24-Feb-2025 14:23:42 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1740407022 a640c23a62f3a-abb1e1bef3esm1948616866b.146 - gsmtp
+
+[24-Feb-2025 14:23:42 UTC] CLIENT -> SERVER: QUIT
+
+[24-Feb-2025 14:23:42 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-abb1e1bef3esm1948616866b.146 - gsmtp
+
+[24-Feb-2025 14:23:42 UTC] ✅ Email uspešno poslat na: a.mmvic02@gmail.com
+[24-Feb-2025 14:24:21 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-5dece1b4e8dsm18347233a12.14 - gsmtp
+
+[24-Feb-2025 14:24:21 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Feb-2025 14:24:21 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [188.120.103.242]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Feb-2025 14:24:21 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Feb-2025 14:24:21 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Feb-2025 14:24:21 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:24:21 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Feb-2025 14:24:21 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:24:22 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:24:22 UTC] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-5dece1b4e8dsm18347233a12.14 - gsmtp
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:24:22 UTC] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-5dece1b4e8dsm18347233a12.14 - gsmtp
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: DATA
+
+[24-Feb-2025 14:24:22 UTC] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-5dece1b4e8dsm18347233a12.14 - gsmtp
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: Date: Mon, 24 Feb 2025 14:24:20 +0000
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: Subject: =?UTF-8?Q?Dobrodo=C5=A1li_u_na=C5=A1_newsletter!?=
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: Message-ID: <KYrgXuY93lZQJ09OG0FcwzovHCixlcw81RKvD0jFCA@localhost>
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: <h1>Hvala što ste se prijavili!</h1><p>Drago nam je što ste se priključili!</p>
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: .
+
+[24-Feb-2025 14:24:22 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1740407063 4fb4d7f45d1cf-5dece1b4e8dsm18347233a12.14 - gsmtp
+
+[24-Feb-2025 14:24:22 UTC] CLIENT -> SERVER: QUIT
+
+[24-Feb-2025 14:24:23 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-5dece1b4e8dsm18347233a12.14 - gsmtp
+
+[24-Feb-2025 14:26:30 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
+
+[24-Feb-2025 14:26:30 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Feb-2025 14:26:30 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.23.105]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Feb-2025 14:26:30 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Feb-2025 14:26:31 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:26:31 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Feb-2025 14:26:31 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:26:31 UTC] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:26:31 UTC] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: DATA
+
+[24-Feb-2025 14:26:31 UTC] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: Date: Mon, 24 Feb 2025 14:26:30 +0000
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: Subject: =?UTF-8?Q?Dobrodo=C5=A1li_u_na=C5=A1_newsletter!?=
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: Message-ID: <9yzC5xQSTzrTHcn6yPzwsy5LFyF8mYULDsIClRP4c@localhost>
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: <h1>Hvala što ste se prijavili!</h1><p>Drago nam je što ste se priključili!</p>
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: 
+
+[24-Feb-2025 14:26:31 UTC] CLIENT -> SERVER: .
+
+[24-Feb-2025 14:26:32 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1740407192 a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
+
+[24-Feb-2025 14:26:32 UTC] CLIENT -> SERVER: QUIT
+
+[24-Feb-2025 14:26:32 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
+

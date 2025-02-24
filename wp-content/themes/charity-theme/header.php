@@ -15,6 +15,14 @@
                 <span class="phone"><i class="fas fa-phone"></i> 233-455-7995</span>
                 <span class="address"><i class="fas fa-map-marker-alt"></i> Ulica 233.52, Privremena adresa, Donec ultricies mattis nulla</span>
             </div>
+
+            <!-- Widget zona u gornjoj traci -->
+            <div class="top-bar-widget">
+                <?php if ( is_active_sidebar( 'top-bar-widget' ) ) : ?>
+                    <?php dynamic_sidebar( 'top-bar-widget' ); ?>
+                <?php endif; ?>
+            </div>
+
             <div class="top-bar-buttons">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-heart.png" alt="Pomozite">
                 <a href="<?php echo site_url('/index.php/donacije/'); ?>" class="top-donate">Donirajte</a>
@@ -27,11 +35,11 @@
 <header class="main-header">
     <div class="container">
         <div class="header-wrapper">
-        <div class="logo">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/l1.png" 
-                alt="Logo Humanitarne Organizacije" 
-                style="max-height: 500px; width: 500px; display: block; margin: 0;">
-        </div>
+            <div class="logo">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/l1.png" 
+                     alt="Logo Humanitarne Organizacije" 
+                     style="max-height: 60px; width: 70px; display: block;">
+            </div>
 
             <nav class="main-nav">
                 <?php
