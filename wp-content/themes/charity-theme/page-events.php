@@ -101,6 +101,7 @@ img {
 
 /* DESNA KOLONA (3 kartice događaja) */
 .hero-right {
+  margin-top:20px;
   display: flex;
   flex-direction: column;
   justify-content: center;

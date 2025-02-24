@@ -30,9 +30,8 @@
         <div class="logo">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/img/l1.png" 
                 alt="Logo Humanitarne Organizacije" 
-                style="max-height: 60px; width: 70px; display: block; margin: 0;">
+                style="max-height: 500px; width: 500px; display: block; margin: 0;">
         </div>
-
 
             <nav class="main-nav">
                 <?php

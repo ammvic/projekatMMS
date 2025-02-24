@@ -111,19 +111,6 @@ a {
     justify-content: space-between;
 }
 
-.logo {
-  height: 30px !important;  /* Možeš dodatno smanjiti na npr. 25px ili 20px */
-  overflow: hidden;
-}
-
-/* Podesi sliku unutar logo kontejnera */
-.logo img {
-  max-height: 100% !important; /* Slika će se prilagoditi visini roditelja */
-  width: auto !important;       /* Zadržava proporcije */
-  display: block;
-  margin: 0 !important;
-  padding: 0 !important;
-}
 
 
 .main-nav .nav-list {

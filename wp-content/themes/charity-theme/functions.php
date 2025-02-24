@@ -87,6 +87,7 @@ function charity_theme_assets() {
 add_action('wp_enqueue_scripts', 'charity_theme_assets');
 
 function charity_widgets_init() {
+    // Postojeće widget zone
     register_sidebar(array(
         'name'          => __('Glavna Sidebar Zona', 'charity-theme'),
         'id'            => 'main-sidebar',
@@ -104,6 +105,40 @@ function charity_widgets_init() {
         'before_title'  => '<h3 class="footer-widget-title">',
         'after_title'   => '</h3>',
     ));
+
+    // Dodatna profesionalnija widget zona u headeru
+    register_sidebar(array(
+        'name'          => __('Header Widget Zona', 'charity-theme'),
+        'id'            => 'header-widget',
+        'description'   => __('Widget zona prikazana u headeru sajta', 'charity-theme'),
+        'before_widget' => '<div class="header-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="header-widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    // Widget zona za istaknuti sadržaj na početnoj strani
+    register_sidebar(array(
+        'name'          => __('Homepage Featured Widget Zona', 'charity-theme'),
+        'id'            => 'homepage-featured-widget',
+        'description'   => __('Widget zona za istaknuti sadržaj ili slider na početnoj stranici', 'charity-theme'),
+        'before_widget' => '<div class="homepage-featured-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="homepage-featured-widget-title">',
+        'after_title'   => '</h3>',
+    ));
+
+    // Widget zona za poziv na donaciju
+    register_sidebar(array(
+        'name'          => __('Donation Call-to-Action Widget Zona', 'charity-theme'),
+        'id'            => 'donation-widget',
+        'description'   => __('Widget zona za prikazivanje poziva na donaciju', 'charity-theme'),
+        'before_widget' => '<div class="donation-widget">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="donation-widget-title">',
+        'after_title'   => '</h3>',
+    ));
 }
 add_action('widgets_init', 'charity_widgets_init');
+
 
