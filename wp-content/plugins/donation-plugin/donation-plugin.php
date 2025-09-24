@@ -21,10 +21,14 @@ function donation_form_shortcode() {
         <h2 class="donation-header">Podržite naš rad</h2>
         <p>Vaše donacije pomažu našem timu da nastavi sa kvalitetnim radom.</p>
         
-        <form class="donation-form">
-            <input type="number" placeholder="Unesite iznos (RSD)" required>
-            <button type="submit">Doniraj</button>
-        </form>
+        <form class="donation-form" action="https://www.paypal.com/donate" method="post" target="_blank">
+    <input type="hidden" name="business" value="tvoj_paypal_email@primer.com">
+    <input type="hidden" name="currency_code" value="USD">
+    
+    <input type="number" name="amount" placeholder="Unesite iznos (USD)" required>
+    <button type="submit">Doniraj</button>
+</form>
+
 
         <section class="donation-options">
             <h2>Izaberite iznos donacije</h2>

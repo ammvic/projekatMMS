@@ -16,6 +16,77 @@ get_header();
 
 <style>
 /* RESET / OSNOVNI STILOVI */
+/* CTA sekcija za prijavu volontera */
+.volunteer-cta {
+  background: linear-gradient(120deg, #e74c3c 0%, #e67e22 100%);
+  padding: 60px 30px;
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+  margin-top: 60px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 6px 25px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.volunteer-cta::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: radial-gradient(rgba(255,255,255,0.1), transparent 70%);
+  z-index: 0;
+}
+.volunteer-cta * {
+  position: relative;
+  z-index: 1;
+}
+.volunteer-cta h2 {
+  font-size: 2.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+.volunteer-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+.btn-volunteer {
+  display: inline-block;
+  padding: 14px 40px;
+  background: #fff;
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+.btn-volunteer:hover {
+  background: #f7f7f7;
+  color: #e67e22;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .volunteer-cta h2 {
+    font-size: 1.8rem;
+  }
+  .volunteer-cta p {
+    font-size: 1rem;
+  }
+  .btn-volunteer {
+    width: 80%;
+    padding: 12px 0;
+  }
+}
+
 * {
   box-sizing: border-box;
 }
@@ -435,6 +506,12 @@ img {
       <h3>200</h3>
       <p>Volonteri</p>
     </div>
+  </section>
+
+  <section class="volunteer-cta">
+    <h2>Želiš da nam se pridružiš?</h2>
+    <p>Budi deo našeg tima i pomozi onima kojima je pomoć najpotrebnija.</p>
+    <a href="<?php echo site_url('/index.php/volonter-prijava'); ?>" class="btn-volunteer">Prijavi se</a>
   </section>
 
 </div><!-- .page-volunteers -->

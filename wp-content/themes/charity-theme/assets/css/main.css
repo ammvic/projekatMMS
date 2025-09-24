@@ -72,7 +72,7 @@ a {
 
 /* Glavni header - transparentno siva pozadina */
 .main-header {
-  position: absolute;
+  /* position: absolute; */
   top: 75px;
   left: 0;
   width: 100%;
@@ -85,9 +85,11 @@ a {
   overflow: hidden;
 }
 
+
+
+
 .main-header::before {
     content: "";
-    position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
     z-index: -1; /* ispod sadržaja .main-header */
 
@@ -102,6 +104,43 @@ a {
     filter: blur(8px);
 }
 
+/* CTA sekcija */
+.volunteer-cta {
+  text-align: center;
+  margin: 60px auto;
+  padding: 40px 20px;
+  background: linear-gradient(120deg, #e74c3c, #e67e22);
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.volunteer-cta h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.volunteer-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+}
+
+.btn-volunteer {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #fff;
+  color: #e74c3c;
+  font-weight: bold;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+}
+.btn-volunteer:hover {
+  background: #e67e22;
+  color: #fff;
+  transform: translateY(-3px);
+}
 
 
 

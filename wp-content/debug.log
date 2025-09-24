@@ -405,3 +405,458 @@
 
 [24-Feb-2025 14:26:32 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-abb84e8cc53sm1776586566b.62 - gsmtp
 
+[24-Sep-2025 09:20:42 UTC] Automatic updates starting...
+[24-Sep-2025 09:20:45 UTC]   Automatic plugin updates starting...
+[24-Sep-2025 09:20:45 UTC]   Automatic plugin updates complete.
+[24-Sep-2025 09:20:46 UTC]   Automatic theme updates starting...
+[24-Sep-2025 09:20:47 UTC]   Automatic theme updates complete.
+[24-Sep-2025 09:20:47 UTC] Automatic updates complete.
+[24-Sep-2025 10:08:13 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-b1fcfe88badsm1478786266b.52 - gsmtp
+
+[24-Sep-2025 10:08:13 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Sep-2025 10:08:13 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.29.241]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Sep-2025 10:08:13 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Sep-2025 10:08:13 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Sep-2025 10:08:13 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:08:13 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Sep-2025 10:08:13 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:08:13 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Sep-2025 10:08:13 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:08:13 UTC] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-b1fcfe88badsm1478786266b.52 - gsmtp
+
+[24-Sep-2025 10:08:13 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:08:14 UTC] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-b1fcfe88badsm1478786266b.52 - gsmtp
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: DATA
+
+[24-Sep-2025 10:08:14 UTC] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-b1fcfe88badsm1478786266b.52 - gsmtp
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: Date: Wed, 24 Sep 2025 10:08:11 +0000
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: Subject: =?UTF-8?Q?Dobrodo=C5=A1li_u_na=C5=A1_newsletter!?=
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: Message-ID: <MJgpAb28O8WQMUOWBF2XtqVxtI72uxNJjPWPJ6qFciw@localhost>
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: <h1>Hvala što ste se prijavili!</h1><p>Drago nam je što ste se priključili!</p>
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: .
+
+[24-Sep-2025 10:08:14 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1758708494 a640c23a62f3a-b1fcfe88badsm1478786266b.52 - gsmtp
+
+[24-Sep-2025 10:08:14 UTC] CLIENT -> SERVER: QUIT
+
+[24-Sep-2025 10:08:15 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-b1fcfe88badsm1478786266b.52 - gsmtp
+
+[24-Sep-2025 10:08:17 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-b2bcb8c930csm710518366b.26 - gsmtp
+
+[24-Sep-2025 10:08:17 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Sep-2025 10:08:17 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.29.241]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Sep-2025 10:08:17 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Sep-2025 10:08:17 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Sep-2025 10:08:17 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:08:17 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Sep-2025 10:08:17 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:08:18 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Sep-2025 10:08:18 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:08:18 UTC] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-b2bcb8c930csm710518366b.26 - gsmtp
+
+[24-Sep-2025 10:08:18 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:08:18 UTC] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-b2bcb8c930csm710518366b.26 - gsmtp
+
+[24-Sep-2025 10:08:18 UTC] CLIENT -> SERVER: DATA
+
+[24-Sep-2025 10:08:19 UTC] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-b2bcb8c930csm710518366b.26 - gsmtp
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: Date: Wed, 24 Sep 2025 10:08:16 +0000
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: Subject: =?UTF-8?Q?Dobrodo=C5=A1li_u_na=C5=A1_newsletter!?=
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: Message-ID: <Gur5lo7JZ31O776Q2Ui9M6Lf7n4RWEnsugMYrzPXw@localhost>
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=UTF-8
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: <h1>Hvala što ste se prijavili!</h1><p>Drago nam je što ste se priključili!</p>
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: .
+
+[24-Sep-2025 10:08:19 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1758708499 a640c23a62f3a-b2bcb8c930csm710518366b.26 - gsmtp
+
+[24-Sep-2025 10:08:19 UTC] CLIENT -> SERVER: QUIT
+
+[24-Sep-2025 10:08:20 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-b2bcb8c930csm710518366b.26 - gsmtp
+
+[24-Sep-2025 10:17:14 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-62fb4a9f811sm11323288a12.29 - gsmtp
+
+[24-Sep-2025 10:17:14 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Sep-2025 10:17:14 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.29.241]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Sep-2025 10:17:14 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Sep-2025 10:17:14 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Sep-2025 10:17:14 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:17:14 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Sep-2025 10:17:14 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:17:15 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:17:15 UTC] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-62fb4a9f811sm11323288a12.29 - gsmtp
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:17:15 UTC] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-62fb4a9f811sm11323288a12.29 - gsmtp
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: DATA
+
+[24-Sep-2025 10:17:15 UTC] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-62fb4a9f811sm11323288a12.29 - gsmtp
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Date: Wed, 24 Sep 2025 10:17:13 +0000
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Subject: [projekatMMS] Password Reset
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Message-ID: <b8W3DrxWo57izHCdiBuEVAxHsEdG8KuIpoV1aOR9g@localhost>
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Someone has requested a password reset for the following account:
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Site Name: projekatMMS
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: Username: ammvic
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: If this was a mistake, ignore this email and nothing will happen.
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: To reset your password, visit the following address:
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: http://localhost/projekatMMS/wp-login.php?login=ammvic&key=kiDbDzcmiiLNTbgN5I3E&action=rp&wp_lang=en_US
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: This password reset request originated from the IP address ::1.
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: .
+
+[24-Sep-2025 10:17:15 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1758709035 4fb4d7f45d1cf-62fb4a9f811sm11323288a12.29 - gsmtp
+
+[24-Sep-2025 10:17:15 UTC] CLIENT -> SERVER: QUIT
+
+[24-Sep-2025 10:17:15 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-62fb4a9f811sm11323288a12.29 - gsmtp
+
+[24-Sep-2025 10:17:54 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP a640c23a62f3a-b2a1773375esm841798566b.20 - gsmtp
+
+[24-Sep-2025 10:17:54 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Sep-2025 10:17:54 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.29.241]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Sep-2025 10:17:54 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Sep-2025 10:17:54 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Sep-2025 10:17:54 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:17:54 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Sep-2025 10:17:54 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:17:55 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:17:55 UTC] SERVER -> CLIENT: 250 2.1.0 OK a640c23a62f3a-b2a1773375esm841798566b.20 - gsmtp
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:17:55 UTC] SERVER -> CLIENT: 250 2.1.5 OK a640c23a62f3a-b2a1773375esm841798566b.20 - gsmtp
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: DATA
+
+[24-Sep-2025 10:17:55 UTC] SERVER -> CLIENT: 354 Go ahead a640c23a62f3a-b2a1773375esm841798566b.20 - gsmtp
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Date: Wed, 24 Sep 2025 10:17:53 +0000
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Subject: [projekatMMS] Password Reset
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Message-ID: <o4cJZ48fdU21Fm3J7z7aCPq5NlqNlPvA23l3rPYUh8@localhost>
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=UTF-8
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Someone has requested a password reset for the following account:
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Site Name: projekatMMS
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: Username: ammvic
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: If this was a mistake, ignore this email and nothing will happen.
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: To reset your password, visit the following address:
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: http://localhost/projekatMMS/wp-login.php?login=ammvic&key=nnz0Bu7Pk6H9g5wt8PXj&action=rp&wp_lang=en_US
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: This password reset request originated from the IP address ::1.
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:17:55 UTC] CLIENT -> SERVER: .
+
+[24-Sep-2025 10:17:56 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1758709076 a640c23a62f3a-b2a1773375esm841798566b.20 - gsmtp
+
+[24-Sep-2025 10:17:56 UTC] CLIENT -> SERVER: QUIT
+
+[24-Sep-2025 10:17:56 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection a640c23a62f3a-b2a1773375esm841798566b.20 - gsmtp
+
+[24-Sep-2025 10:40:30 UTC] SERVER -> CLIENT: 220 smtp.gmail.com ESMTP 4fb4d7f45d1cf-62fa5cfa883sm12413204a12.11 - gsmtp
+
+[24-Sep-2025 10:40:30 UTC] CLIENT -> SERVER: EHLO localhost
+
+[24-Sep-2025 10:40:30 UTC] SERVER -> CLIENT: 250-smtp.gmail.com at your service, [77.243.29.241]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+[24-Sep-2025 10:40:30 UTC] CLIENT -> SERVER: AUTH LOGIN
+
+[24-Sep-2025 10:40:30 UTC] SERVER -> CLIENT: 334 VXNlcm5hbWU6
+
+[24-Sep-2025 10:40:30 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:40:30 UTC] SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+
+[24-Sep-2025 10:40:30 UTC] CLIENT -> SERVER: [credentials hidden]
+[24-Sep-2025 10:40:31 UTC] SERVER -> CLIENT: 235 2.7.0 Accepted
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: MAIL FROM:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:40:31 UTC] SERVER -> CLIENT: 250 2.1.0 OK 4fb4d7f45d1cf-62fa5cfa883sm12413204a12.11 - gsmtp
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: RCPT TO:<a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:40:31 UTC] SERVER -> CLIENT: 250 2.1.5 OK 4fb4d7f45d1cf-62fa5cfa883sm12413204a12.11 - gsmtp
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: DATA
+
+[24-Sep-2025 10:40:31 UTC] SERVER -> CLIENT: 354 Go ahead 4fb4d7f45d1cf-62fa5cfa883sm12413204a12.11 - gsmtp
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Date: Wed, 24 Sep 2025 10:40:29 +0000
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: To: a.mmvic02@gmail.com
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: From: Organizacija Hand of Hope <a.mmvic02@gmail.com>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Reply-To: a.mmvic02@gmail.com
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Subject: projekatMMS "[your-subject]"
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Message-ID: <obJpxSkwduO8kgITvKey6cQPVlKVSmFXR5J6wPE1jY@localhost>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: MIME-Version: 1.0
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Content-Type: multipart/alternative;
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER:  boundary="b1=_obJpxSkwduO8kgITvKey6cQPVlKVSmFXR5J6wPE1jY"
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: --b1=_obJpxSkwduO8kgITvKey6cQPVlKVSmFXR5J6wPE1jY
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: From: AMINA MEMISAHOVIC a.mmvic02@gmail.com
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Subject: [your-subject]
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Message Body:
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: [your-message]
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: --
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: This is a notification that a contact form was submitted on your website (projekatMMS http://localhost/projekatMMS).
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: --b1=_obJpxSkwduO8kgITvKey6cQPVlKVSmFXR5J6wPE1jY
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Content-Type: text/html; charset=us-ascii
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <!doctype html>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <head>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <title>projekatMMS &quot;[your-subject]&quot;</title>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: </head>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <body>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <p>From: AMINA MEMISAHOVIC a.mmvic02@gmail.com<br />
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: Subject: [your-subject]
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: </p>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <p>Message Body:<br />
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: [your-message]
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: </p>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: <p>--<br />
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: This is a notification that a contact form was submitted on your website (projekatMMS http://localhost/projekatMMS).
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: </p></body>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: </html>
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: --b1=_obJpxSkwduO8kgITvKey6cQPVlKVSmFXR5J6wPE1jY--
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: 
+
+[24-Sep-2025 10:40:31 UTC] CLIENT -> SERVER: .
+
+[24-Sep-2025 10:40:32 UTC] SERVER -> CLIENT: 250 2.0.0 OK  1758710432 4fb4d7f45d1cf-62fa5cfa883sm12413204a12.11 - gsmtp
+
+[24-Sep-2025 10:40:32 UTC] CLIENT -> SERVER: QUIT
+
+[24-Sep-2025 10:40:32 UTC] SERVER -> CLIENT: 221 2.0.0 closing connection 4fb4d7f45d1cf-62fa5cfa883sm12413204a12.11 - gsmtp
+
