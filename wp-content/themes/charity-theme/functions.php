@@ -122,4 +122,10 @@ add_action( 'widgets_init', 'moja_tema_top_bar_widget' );
 
 
 
+function load_font_awesome() {
+    wp_enqueue_style( 'font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css' );
+}
+add_action( 'wp_enqueue_scripts', 'load_font_awesome' );
+
+
 
